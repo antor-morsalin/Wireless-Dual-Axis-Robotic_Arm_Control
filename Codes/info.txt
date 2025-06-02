@@ -1,3 +1,5 @@
 Codes for receiver ESP32 and Sender ESP32
 Sender ESP-32 calculates the yaw and roll angle from MPU0250 and sends it to the receiver ESP-32 via ESP NOW
 Receiver ESP-32 receives the value and sets the angle value to the corresponding servo motors 
+
+Although I am using a MPU9250 but I am using it like an a MPU6050. The reason is, after tryin different methods, I couldn't get steady yaw angle reading. But even using it like an MPU6050 (no magnetometer), it gives really nice yaw angle reading as you can see from the video demonstration.
